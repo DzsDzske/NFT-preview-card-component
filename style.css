@@ -35,12 +35,12 @@ body {
 }
 
 main {
+    box-shadow: 0rem 1rem 5rem 0px black;
     background-color: var(--card-bg);
     border-radius: 15px;
     width: 20rem;
     padding: 1.5rem;
     margin-top: 2rem;
-    border: 2px solid black;
 }
 
 .main-img {
@@ -63,19 +63,57 @@ main h1 {
 }
 
 .price {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
     color: var(--cian);
     float: left;
 }
 
 .time {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
     color: var(--soft-blue);
     float: right;
 }
 
-div {
+ 
+.cont {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     padding-bottom: 2.5rem;
 }
 
 .ethereum, .clock {
+    
     padding-right: 5px;
+}
+
+hr{
+    height: 1px;
+    background-color: var(--line);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.creator-image {
+    margin-right: 1rem;
+    width: 2rem;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+}
+
+.creator-name {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    color: var(--soft-blue);
+}
+
+.creator-name span {
+    font-weight: 600;
+    color: var(--white);
+}
+
+.creator-cont {
+    display: flex;
+    align-items: center; 
 }
