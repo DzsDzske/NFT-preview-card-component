@@ -117,3 +117,29 @@ hr{
     display: flex;
     align-items: center; 
 }
+
+h1:hover {
+    cursor: pointer;
+    color: var(--cian);
+}
+
+.creator-name span:hover {
+    cursor: pointer;
+    color: var(--cian);
+}
+
+@media only screen and (max-width: 442px) {
+
+    * {
+        font-size: 1rem;
+    }
+
+    main {
+        max-width: 15rem;
+    }
+
+    .main-img {
+        max-width: 15rem;
+    }
+
+}
